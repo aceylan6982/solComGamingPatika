@@ -13,8 +13,8 @@ import { confirmAlert } from 'react-confirm-alert';
 import 'react-confirm-alert/src/react-confirm-alert.css';
 import { transferCustomToken } from './utils/transferToken';
 const NETWORK = clusterApiUrl("devnet");
-let lamportsRequiredToPlay = 0.1 * LAMPORTS_PER_SOL
-const gameWalletPublicKey = new PublicKey("62AtDMhgaW1YQZCxv7hGBE7HDTU67L71vs4VQrRVBq3p")
+let lamportsRequiredToPlay = 0.3 * LAMPORTS_PER_SOL //Changed the 0.3 sol instead of 0.1 sol.
+const gameWalletPublicKey = new PublicKey("2ZbrULcWgUgSAAc9UzPwZmzScfRcvap6AV2bG5yZ2ur8") //My gamewallat adress
 
 function App() {
 
